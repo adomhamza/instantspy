@@ -1,0 +1,8 @@
+@client_id=313930220159266
+@redirect_uri=https://flamboyant-visvesvaraya-95ac7c.netlify.app/
+@scope=user_profile,user_media
+@response_type=code
+@client_secret=95903801b06873b9cb48b2afbed7788b
+
+
+POST {{baseUrl}}

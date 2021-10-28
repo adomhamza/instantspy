@@ -1,0 +1,39 @@
+https://api.instagram.com/oauth/authorize
+  ?client_id=313930220159266
+  &redirect_uri=https://flamboyant-visvesvaraya-95ac7c.netlify.app/
+  &scope=user_profile,user_media
+  &response_type=code
+  code=AQB_kvq64tTgA-UG0Igvse_zFxJCdQ44MNvD4-3axLKHhGDHMO5efT55N7ZksJh-P_PFMnUDeBrYjZzgKSXudtTrR943rMsJXzePTSwJcxfZFeiQMX8HVQ3FaCxtXlYmX9P5_ctgZh3iEFU3Kxov3Ta-Ne_cY6NmkNATFJiuOuJuiskadcRhjxgKEHvtSW669cKVgpjiE8iQGbgWpSseBTBhAr2aTT-7qDSg0teG4FXF0g
+
+
+ curl -X POST \ https://api.instagram.com/oauth/access_token \
+  -F client_id=313930220159266 \
+  -F client_secret=95903801b06873b9cb48b2afbed7788b \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://flamboyant-visvesvaraya-95ac7c.netlify.app/ \
+  -F code=AQDpy_0MuO7okid35N0L_TiifqBpUuun5aQ9EPuQNFCa16aUZgG9aXr6QWfgKEeDUIOAae6kQSke0BfSA2BNXNW9r-CqPoC1LMKLZltSTS1viNXNBz29_7RXFUah-lVbc1DDzCO58f4ubjh6QlkDiAoJgNisyQ_gKUoxwwOSwIF2mpBKZw5euC5ilzjtasZjI4KWlcGLkpnM37eP3MB5XIjccWlZnGtjiFJJ5tnEkosFpg
+
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F client_id=313930220159266 \
+  -F client_secret=95903801b06873b9cb48b2afbed7788b \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://flamboyant-visvesvaraya-95ac7c.netlify.app/ \
+  -F code=AQB_kvq64tTgA-UG0Igvse_zFxJCdQ44MNvD4-3axLKHhGDHMO5efT55N7ZksJh-P_PFMnUDeBrYjZzgKSXudtTrR943rMsJXzePTSwJcxfZFeiQMX8HVQ3FaCxtXlYmX9P5_ctgZh3iEFU3Kxov3Ta-Ne_cY6NmkNATFJiuOuJuiskadcRhjxgKEHvtSW669cKVgpjiE8iQGbgWpSseBTBhAr2aTT-7qDSg0teG4FXF0g
+
+{
+    "access_token": "IGQVJVdF9leFRFN3Y2U2dNdDlkekd5RFRiT3hKUmM2ZAkx2aFl2d1NxMTJxZA1VIRlVIdk1CenM4NE5sdTRZAamtZAS0hlNFVGOXE3ZAFdVOGl2a3UzZAGxOZAzluLTZAYMWNtWDl3cFpoUmJVbEZANa1VsZAVliNnBkT0MzLWVHb24w",
+    "user_id": 17841410688590972
+}
+
+curl -i -X GET "https://graph.instagram.com/access_token
+  ?grant_type=ig_exchange_token
+  &client_secret=95903801b06873b9cb48b2afbed7788b
+  &access_token=IGQVJWRW90bElVT0xsTGg5RV8yNjBkWkNkNVFaN19fZATVKQjdRblVqOWlqaDhGUE1VZAlY3NndMQm5pVl8tcWNLYXNRNHROcEFDWDhtMjA4NS1jU0FBdmVqdFFGQ2ZASajh6aEE1TG9nU2h4aTA0a25YVmNJbnVOSV8zZAEg0"
+
+
+
+  GET https://graph.instagram.com/access_token
+  ?grant_type=ig_exchange_token
+  &client_secret=95903801b06873b9cb48b2afbed7788b
+  &access_token=IGQVJWRW90bElVT0xsTGg5RV8yNjBkWkNkNVFaN19fZATVKQjdRblVqOWlqaDhGUE1VZAlY3NndMQm5pVl8tcWNLYXNRNHROcEFDWDhtMjA4NS1jU0FBdmVqdFFGQ2ZASajh6aEE1TG9nU2h4aTA0a25YVmNJbnVOSV8zZAEg0
